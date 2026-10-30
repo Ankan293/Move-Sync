@@ -1,0 +1,17 @@
+# Python environments and generated files
+venv/
+camera_venv/
+.venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+
+# Local editor configuration
+.vscode/
+**/.vscode/
+
+# HARTH raw and generated CSV datasets are large; keep the demo arrays below
+# so the trained demo can still run after cloning.
+data/activity/harth/
+data/processed/harth_4class.csv
+data/processed/harth_features.csv
